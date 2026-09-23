@@ -1,0 +1,17 @@
+#Expyriment 1.0.1 (Python 3.13.15), .xpe-file, coding: UTF-8
+#date: Wed Sep 23 2026 22:15:03
+#sha1: 143f52
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Darwin', node='pc-110.home', release='25.6.0', version='Darwin Kernel Version 25.6.0: Fri Jul 31 19:16:20 PDT 2026; root:xnu-12377.161.14~5/RELEASE_ARM64_T8142', machine='arm64')
+Time,Type,Event,Value,Detail,Detail2
+2700,design,log,
+#design: #exp: Illusory-Line motion
+#design: block_cnt,block_id,trial_cnt,trial_id
+2700,design,logged,
+2700,Experiment,started
+2717,Stimulus,presented,0
+84082,stderr,received,'Traceback (most recent call last):'
+84083,stderr,received,'  File "/Users/sophiekuhn/ppe-sandbox/point-et-ligne.py", line 13, in <module>\n    exp.clock.wait(100000)\n    ~~~~~~~~~~~~~~^^^^^^^^'
+84083,stderr,received,'  File "/Users/sophiekuhn/ppe-sandbox/.venv/lib/python3.13/site-packages/expyriment/misc/_clock.py", line 154, in wait\n    pygame.event.pump()\n    ~~~~~~~~~~~~~~~~~^^'
+84083,stderr,received,'KeyboardInterrupt'
