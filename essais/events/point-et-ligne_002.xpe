@@ -1,0 +1,16 @@
+#Expyriment 1.0.1 (Python 3.13.15), .xpe-file, coding: UTF-8
+#date: Fri Sep 25 2026 22:32:09
+#sha1: 459654
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Darwin', node='macbook-air-3.home', release='25.6.0', version='Darwin Kernel Version 25.6.0: Fri Jul 31 19:16:20 PDT 2026; root:xnu-12377.161.14~5/RELEASE_ARM64_T8142', machine='arm64')
+Time,Type,Event,Value,Detail,Detail2
+2350,design,log,
+#design: #exp: Illusory-Line motion
+#design: block_cnt,block_id,trial_cnt,trial_id
+2350,design,logged,
+2350,Experiment,started
+2365,Stimulus,presented,1
+2631,Stimulus,presented,0
+5163,Keyboard,received,32,wait
+5163,Experiment,ended

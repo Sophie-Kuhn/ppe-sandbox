@@ -1,0 +1,15 @@
+#Expyriment 1.0.1 (Python 3.13.15), .xpe-file, coding: UTF-8
+#date: Fri Sep 25 2026 22:36:26
+#sha1: adc408
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Darwin', node='macbook-air-3.home', release='25.6.0', version='Darwin Kernel Version 25.6.0: Fri Jul 31 19:16:20 PDT 2026; root:xnu-12377.161.14~5/RELEASE_ARM64_T8142', machine='arm64')
+Time,Type,Event,Value,Detail,Detail2
+1764,design,log,
+#design: #exp: Reaction Time Experiment
+#design: block_cnt,block_id,trial_cnt,trial_id
+1764,design,logged,
+1764,Experiment,started
+2388,Stimulus,presented,0
+4831,Keyboard,received,32,wait
+4831,Experiment,ended
