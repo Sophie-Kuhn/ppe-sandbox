@@ -3,7 +3,6 @@ import expyriment as xpy
 xpy.control.set_develop_mode(True)  # fenêtre normale, pas plein écran
 exp = xpy.design.Experiment("Illusory-Line motion")
 xpy.control.defaults.window_size = (800, 600)
-xpy.io.Keyboard.set_quit_key(xpy.misc.constants.K_ESCAPE)
 
 start = (-250, 0)
 end=(250, 0)

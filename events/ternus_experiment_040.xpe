@@ -1,0 +1,31 @@
+#Expyriment 1.0.1 (Python 3.13.15), .xpe-file, coding: UTF-8
+#date: Wed Sep 30 2026 19:04:32
+#sha1: 3a1c36
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Darwin', node='MacBook-Air-3.local', release='25.6.0', version='Darwin Kernel Version 25.6.0: Fri Jul 31 19:16:20 PDT 2026; root:xnu-12377.161.14~5/RELEASE_ARM64_T8142', machine='arm64')
+Time,Type,Event,Value,Detail,Detail2
+1044,design,log,
+#design: #exp: ternus_experiment
+#design: block_cnt,block_id,trial_cnt,trial_id
+1044,design,logged,
+1044,Experiment,started
+1050,Stimulus,presented,6
+1675,Keyboard,received,32,wait
+1683,Stimulus,presented,8
+2300,Stimulus,presented,9
+2917,Stimulus,presented,10
+3533,Stimulus,presented,11
+4150,Stimulus,presented,12
+4767,Stimulus,presented,13
+5874,Keyboard,received,32,wait
+5881,stderr,received,'Traceback (most recent call last):'
+5881,stderr,received,'  File "/Users/sophiekuhn/ppe-sandbox/Ternus_experiment/ternus_experiment.py", line 53, in <module>\n    second_instructions.present()\n    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^'
+5881,stderr,received,'  File "/Users/sophiekuhn/ppe-sandbox/.venv/lib/python3.13/site-packages/expyriment/stimuli/_visual.py", line 1171, in present\n    self.preload(inhibit_ogl_compress=True)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+5881,stderr,received,'  File "/Users/sophiekuhn/ppe-sandbox/.venv/lib/python3.13/site-packages/expyriment/stimuli/_visual.py", line 1059, in preload\n    self._get_surface(),\n    ~~~~~~~~~~~~~~~~~^^'
+5881,stderr,received,'  File "/Users/sophiekuhn/ppe-sandbox/.venv/lib/python3.13/site-packages/expyriment/stimuli/_visual.py", line 490, in _get_surface\n    tmp = self._create_surface()'
+5881,stderr,received,'  File "/Users/sophiekuhn/ppe-sandbox/.venv/lib/python3.13/site-packages/expyriment/stimuli/_textscreen.py", line 479, in _create_surface\n    surface.blit(header._get_surface(),\n                 ~~~~~~~~~~~~~~~~~~~^^'
+5881,stderr,received,'  File "/Users/sophiekuhn/ppe-sandbox/.venv/lib/python3.13/site-packages/expyriment/stimuli/_visual.py", line 490, in _get_surface\n    tmp = self._create_surface()'
+5881,stderr,received,'  File "/Users/sophiekuhn/ppe-sandbox/.venv/lib/python3.13/site-packages/expyriment/stimuli/_textline.py", line 270, in _create_surface\n    _text = bytes_to_unicode(self.text).encode(\'latin-1\')\n            ~~~~~~~~~~~~~~~~^^^^^^^^^^^'
+5881,stderr,received,'  File "/Users/sophiekuhn/ppe-sandbox/.venv/lib/python3.13/site-packages/expyriment/misc/_miscellaneous.py", line 211, in bytes_to_unicode\n    u = s.decode(LOCALE_ENC)\n        ^^^^^^^^'
+5881,stderr,received,"AttributeError: 'NoneType' object has no attribute 'decode'"

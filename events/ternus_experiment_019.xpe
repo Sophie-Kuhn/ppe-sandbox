@@ -1,0 +1,16 @@
+#Expyriment 1.0.1 (Python 3.13.15), .xpe-file, coding: UTF-8
+#date: Wed Sep 30 2026 18:01:43
+#sha1: 4c07af
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Darwin', node='MacBook-Air-3.local', release='25.6.0', version='Darwin Kernel Version 25.6.0: Fri Jul 31 19:16:20 PDT 2026; root:xnu-12377.161.14~5/RELEASE_ARM64_T8142', machine='arm64')
+Time,Type,Event,Value,Detail,Detail2
+1313,design,log,
+#design: #exp: ternus_experiment
+#design: block_cnt,block_id,trial_cnt,trial_id
+1313,design,logged,
+1313,Experiment,started
+1328,Stimulus,presented,3
+1329,stderr,received,'Traceback (most recent call last):'
+1329,stderr,received,'  File "/Users/sophiekuhn/ppe-sandbox/Ternus_experiment/ternus_experiment.py", line 34, in <module>\n    circle_1.move(100, 0)\n    ~~~~~~~~~~~~~^^^^^^^^'
+1329,stderr,received,'TypeError: Visual.move() takes 2 positional arguments but 3 were given'

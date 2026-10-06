@@ -1,0 +1,25 @@
+#Expyriment 1.0.1 (Python 3.13.15), .xpe-file, coding: UTF-8
+#date: Wed Sep 30 2026 19:31:41
+#sha1: b6c375
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Darwin', node='MacBook-Air-3.local', release='25.6.0', version='Darwin Kernel Version 25.6.0: Fri Jul 31 19:16:20 PDT 2026; root:xnu-12377.161.14~5/RELEASE_ARM64_T8142', machine='arm64')
+Time,Type,Event,Value,Detail,Detail2
+1111,design,log,
+#design: #exp: ternus_experiment
+#design: block_cnt,block_id,trial_cnt,trial_id
+1111,design,logged,
+1111,Experiment,started
+1123,Stimulus,presented,6
+1736,Keyboard,received,32,wait
+1740,Stimulus,presented,8
+2356,Stimulus,presented,9
+2973,Stimulus,presented,10
+3590,Stimulus,presented,11
+4206,Stimulus,presented,12
+4825,Stimulus,presented,13
+5440,Stimulus,presented,7
+6061,Keyboard,received,1073741904,wait
+6062,stderr,received,'Traceback (most recent call last):'
+6062,stderr,received,'  File "/Users/sophiekuhn/ppe-sandbox/Ternus_experiment/ternus_experiment.py", line 64, in <module>\n    print(frame_duration, response, key, rt)\n          ^^^^^^^^^^^^^^'
+6062,stderr,received,"NameError: name 'frame_duration' is not defined"

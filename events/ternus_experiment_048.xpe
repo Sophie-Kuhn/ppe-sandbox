@@ -1,0 +1,15 @@
+#Expyriment 1.0.1 (Python 3.13.15), .xpe-file, coding: UTF-8
+#date: Wed Sep 30 2026 19:22:43
+#sha1: 0f2714
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Darwin', node='MacBook-Air-3.local', release='25.6.0', version='Darwin Kernel Version 25.6.0: Fri Jul 31 19:16:20 PDT 2026; root:xnu-12377.161.14~5/RELEASE_ARM64_T8142', machine='arm64')
+Time,Type,Event,Value,Detail,Detail2
+2174,design,log,
+#design: #exp: ternus_experiment
+#design: block_cnt,block_id,trial_cnt,trial_id
+2174,design,logged,
+2174,Experiment,started
+2174,stderr,received,'Traceback (most recent call last):'
+2174,stderr,received,'  File "/Users/sophiekuhn/ppe-sandbox/Ternus_experiment/ternus_experiment.py", line 34, in <module>\n    data_file.add_variable_names(["frame duration", "response", "raw key", "reaction time"])\n    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+2174,stderr,received,"TypeError: DataFile.add_variable_names() missing 1 required positional argument: 'variable_names'"
